@@ -61,7 +61,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				/* BMD Brand Colors */
+				navy: {
+					deep: 'hsl(var(--navy-deep))',
+					light: 'hsl(var(--navy-light))'
+				},
+				gold: {
+					primary: 'hsl(var(--gold-primary))',
+					light: 'hsl(var(--gold-light))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-section': 'var(--gradient-section)',
+				'gradient-gold': 'var(--gradient-gold)'
+			},
+			boxShadow: {
+				'corporate': 'var(--shadow-corporate)',
+				'gold': 'var(--shadow-gold)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
+			},
+			fontFamily: {
+				'sans': ['Inter', 'Roboto', 'Open Sans', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

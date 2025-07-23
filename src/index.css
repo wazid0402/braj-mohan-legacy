@@ -8,50 +8,65 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* BMD Brand Colors - Dark navy blue, white, gold */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 208 100% 14%;
+    
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 208 100% 14%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
+    --popover-foreground: 208 100% 14%;
+    
+    /* Primary - Dark Navy Blue (#002147) */
+    --primary: 208 100% 14%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary - Light variations */
+    --secondary: 208 50% 95%;
+    --secondary-foreground: 208 100% 14%;
+    
+    --muted: 208 30% 96%;
+    --muted-foreground: 208 20% 50%;
+    
+    /* Accent - Gold (#C9A63A) */
+    --accent: 47 55% 50%;
+    --accent-foreground: 208 100% 14%;
+    
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 208 30% 90%;
+    --input: 208 30% 90%;
+    --ring: 47 55% 50%;
+    
     --radius: 0.5rem;
-
+    
+    /* Additional BMD Design Tokens */
+    --navy-deep: 208 100% 14%;
+    --navy-light: 208 50% 95%;
+    --gold-primary: 47 55% 50%;
+    --gold-light: 47 60% 85%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--navy-deep)), hsl(208 80% 20%));
+    --gradient-section: linear-gradient(180deg, hsl(var(--navy-light)), hsl(0 0% 100%));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-primary)), hsl(47 70% 60%));
+    
+    /* Shadows */
+    --shadow-corporate: 0 10px 40px -10px hsl(var(--navy-deep) / 0.15);
+    --shadow-gold: 0 5px 20px -5px hsl(var(--gold-primary) / 0.3);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
