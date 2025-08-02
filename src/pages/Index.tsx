@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import { HomePage } from "../components/ui/home-screen/HomePage";
 import AboutSection from "@/components/AboutSection";
 import VisionMissionSection from "@/components/VisionMissionSection";
 import ValuesSection from "@/components/ValuesSection";
@@ -10,21 +11,24 @@ import StatsSection from "@/components/StatsSection";
 import ClienteleSection from "@/components/ClienteleSection";
 import ContactSection from "@/components/ContactSection";
 import FooterSection from "@/components/FooterSection";
+import WhyBmd from "@/components/WhyBmd";
+import AnnualTurnover from "@/components/AnnualTurnover";
+import OurClintele from "@/components/OurClintele";
+import OurFinancePartners from "@/components/OurFinancePartners";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Header />
-      <HeroSection />
+      <HomePage />
       <AboutSection />
       <VisionMissionSection />
       <ValuesSection />
-      <DirectorMessageSection />
       <TeamSection />
-      <ServicesSection />
-      <StatsSection />
-      <ClienteleSection />
-      <ContactSection />
+      <DirectorMessageSection />
+      <WhyBmd />
+      <AnnualTurnover />
+      <OurClintele />
+      <OurFinancePartners />
       <FooterSection />
     </div>
   );
