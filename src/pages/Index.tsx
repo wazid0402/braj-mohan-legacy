@@ -15,12 +15,14 @@ import WhyBmd from "@/components/WhyBmd";
 import AnnualTurnover from "@/components/AnnualTurnover";
 import OurClintele from "@/components/OurClintele";
 import OurFinancePartners from "@/components/OurFinancePartners";
+import VisionSection from "@/components/visionSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <HomePage />
       <AboutSection />
+      <VisionSection />
       <VisionMissionSection />
       <ValuesSection />
       <TeamSection />
